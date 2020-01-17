@@ -1,0 +1,178 @@
+@font-face { font-family: DancingScript-Regular; 
+			 src: url('DancingScript-Regular.ttf'); } 
+body{
+
+	font-family: 'DancingScript-Regular';
+background-color: #000;
+}
+
+img{
+
+	box-shadow: 2px 2px #02010a;
+}
+
+
+.banner{
+
+	text-align: center;
+	background-color: #82c3a6;
+}
+
+@media (min-width: 900px) { 
+
+.bannersSecundarios{
+	width: 100%;
+background-color: #d5c75f;
+border: 1px solid black;
+display: inline-flex;
+	text-align: center;
+
+}
+
+footer{
+font-family: 'arial';
+width: 100%
+border-radius: 0px 0px 10px 10px;
+background-color: #C6d5c5;
+display: flex;
+padding: 50px;
+text-align: left;
+
+}
+
+.footerInfo{
+	margin-left: 1.5em;
+	width: 25%;
+
+}
+
+.paisajesContent{
+	width: 100%;
+display: inline-flex;
+text-align: center;
+
+
+}
+
+
+.paisajesColum{
+	width: 32%;
+	margin-left: 1em;
+}
+
+
+}
+
+@media (max-width: 900px) { 
+
+.bannersSecundarios{
+	width: 100%;
+background-color: #d5c75f;
+border: 1px solid black;
+	text-align: center;
+
+}
+
+footer{
+	font-family: 'arial';
+width: 100%
+border-radius: 0px 0px 10px 10px;
+background-color: #C6d5c5;
+margin: 0px;
+
+}
+
+.footerInfo{
+
+	width: 100%;
+
+}
+
+.paisajesContent{
+	width: 100%;
+
+text-align: center;
+
+
+}
+
+
+.paisajesColum{
+	width: 100%;
+
+}
+
+
+}
+
+
+.rotar img:hover{
+	  transform: rotate(10deg);
+	  transition: all 2s;
+	  border: 2px solid black;
+	  box-shadow: 5px 5px #82c3a6;
+}
+
+.bsecundario{
+margin: 0px auto;
+
+	width: 50%;
+}
+.cabecera{
+
+	background-color: #5b7989;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.titulo{
+
+	text-align: left;
+	color: #fff;
+	text-shadow: 2px 2px #02010a;
+	float: left;
+	padding: 10px;
+
+}
+
+.menu ul{
+	
+		width: 100%;
+		background-color: red;
+}
+.menu li{
+	float: right;
+	padding: 10px;
+	display: inline;	
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 1em;
+
+}
+
+
+.trasladar img:hover{
+
+	
+	transform: translate(20px,-5px);
+		  transition: all 2s;
+		-webkit-transform: translate(20px,-5px);
+}
+
+
+
+a{
+
+color: #fff;
+text-decoration: none;
+}
+
+a:hover{
+color: #fdf;
+}
+
+a:active{
+	color: #fdf;
+
+}
+
+	
